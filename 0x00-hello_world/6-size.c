@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
-* You should produce the exact same output as in the example
-* Warnings are allowed
+* main - print the string in the put function
 *
-* Your program should return 0
+* Description: using the main function
+* this program prints "Programming is like building a multilingual puzzle
+* Return: 0
 */
 int main(void)
 {
@@ -14,10 +15,10 @@ int main(void)
 	long long lli;
 	float f;
 
-	printf("size of the char: %ld byte(s)\n", sizeof(c));
-	printf("size of the int: %ld byte(s)\n", sizeof(i));
-	printf("size of the long: %ld byte(s)\n", sizeof(li));
-	printf("size of the long long: %ld byte(s)\n", sizeof(lli));
-	printf("size of the float: %ld byte(s)\n", sizeof(f));
-	return 0;
+	printf("Size of a char: %ld byte(s)\n", sizeof(c));
+	printf("Size of an int: %ld byte(s)\n", sizeof(i));
+	printf(Size of a long int: %ld byte(s)\n", sizeof(li));
+	printf("Size of a long long int: %ld byte(s)\n", sizeof(lli));
+	printf("Size of a float: %ld byte(s)\n", sizeof(f));
+	return (0)
 }
