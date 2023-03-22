@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack_bauer - func that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59, min loop counts mins, while hour loop counts h * urs and reset mins
+ * jack_bauer - func that prints every minutes of the day, starting from 00:00 to 23:59
  * Return: 0
  */
 void jack_bauer(void)
@@ -10,14 +10,14 @@ void jack_bauer(void)
 	int hours_reminder;
 	int mins_reminder;
 
-	while (hour <= 23)
+	while (hours <= 23)
 	{
 	while (minutes <= 59)
 	{
 	mins_reminder = minutes % 10;
 	hours_reminder = hours % 10;
 	_putchar(hours / 10 + '0');
-	_putchar(hours_reminder + '0');
+	_putchar(hours_reminder + '0')
 	_putchar(':');
 	_putchar(minutes / 10 + '0');
 	_putchar(mins_reminder + '0');
