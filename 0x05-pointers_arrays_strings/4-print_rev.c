@@ -3,8 +3,9 @@
 #include "main.h"
 
 /**
-*print_rev - prints a string in a reverse order
-*@s: string to reverse
+*print_rev - prints string in a reverse
+*order
+*@s: String to reverse
 *Return: nothing
 */
 
@@ -12,7 +13,7 @@ void print_rev(char *s)
 {
 	int len = strlen(s);
 
-	while (len--);
+	while (len--)
 		putchar(*(s + len));
 	putchar(10);
 }
