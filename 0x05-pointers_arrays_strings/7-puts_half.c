@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -11,14 +12,14 @@ void puts_half(char *str)
 	int i, len = _strlen(str);
 
 	for (i = ((len - 1) / 2) + 1; i < len; i++)
-		putchar(*(str + 1));
+		putchar(*(str + i));
 	putchar(10);
 }
 
 /**
 *_strlen - returns the length of string
 *@s: string
-*Return: length of given string
+*Return: the length of given string
 */
 
 int _strlen(char *s)
