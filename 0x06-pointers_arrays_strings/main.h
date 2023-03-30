@@ -1,6 +1,6 @@
-#ifndef MAIN_H      
+#ifndef MAIN_H
 #define MAIN_H
-int _putchar(char c)
+int _putchar(char c);
 #include <stdio.h>
 /**
 *void prototypes()
@@ -9,7 +9,7 @@ int _putchar(char c)
 */
 void reverse_array(int *a, int n);
 void print_number(int n);
-void print_buffeer(char *b, int size);
+void print_bufffer(char *b, int size);
 int _strcmp(char *s1, char *s2);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
@@ -21,4 +21,4 @@ char *rot13(char *);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 char *add_strings(char *n1, char *n2, char *r, int r_index);
 
-endif /*MAIN_H*/
+#endif /*MAIN_H*/
