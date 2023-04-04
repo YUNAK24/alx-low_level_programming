@@ -7,7 +7,6 @@
  * Return: pointer to beginning of needle in haystack
  *or NULL if no match
  */
-
 char *_strstr(char *haystack, char *needle)
 {
 	unsigned int i = 0, j = 0;
@@ -21,13 +20,13 @@ char *_strstr(char *haystack, char *needle)
 			else
 				break;
 		}
-		if (neele[j])
+		if (needle[j])
 		{
 			i++;
-			j = 0;
+			j++;
 		}
 		else
 			return (haystack + i);
 	}
-	return (0);
+	return(0)
 }
