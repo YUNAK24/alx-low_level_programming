@@ -4,14 +4,12 @@
 
 /**
  * print_strings - prints strings, followed by a new line
- * @seperatot:  the string to be printed between strings
- * @n: the number of string passed to the function
+ * @seperator: the string to be printed between strings
+ * @n: the number of strings passed to the function
  * @...: a variable number of string to be printed
- *
- * Description: if seperator is NULL, it is not printed
- * if one of the string is NULL, (nil) is printed instead
+ * Descripton: if seperator is NULL, don't print
+ *		if one of the string is NULL, print (nil)
  */
-
 void print_strings(const char *seperator, const unsigned int n, ...)
 {
 	va_list strings;
